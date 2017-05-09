@@ -74,5 +74,10 @@ new ComicBook()
 
             return comicBookToReturn;
         }
+
+        public ComicBook[] GetComicBooks()
+        {
+            return _comicBooks;
+        }
     }
 }
